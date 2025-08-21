@@ -1,0 +1,96 @@
+/* left side styling --------------------------------------------------- */
+.body{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+      .container-flex {
+        display: flex;
+        
+      }
+      #list-example {
+        
+        min-width: 300px;
+        max-height: 100vh;
+        overflow-y: scroll; 
+        position: fixed;
+        top: 0;
+        left: 0;
+        width: 270px;
+        height: 100vh;
+        overflow-y: auto;
+        background-color: #111; /* Optional for styling */
+        color: white;
+
+        
+        border: 1px solid #ddd;
+      }
+      .scrollspy-example {
+        flex-grow: 1;
+        width: 100%;
+        border: 1px solid #ddd;
+        margin-left: 280px; 
+    padding: 20px;
+        
+      }
+#logo-name:hover{
+    font-family: cursive;
+   
+}
+
+
+
+      #logo-img img{
+        height: 220px;
+        width: 220px;
+        object-fit: cover;
+        /* border-image: center; */
+        border: 6px solid rgb(63, 63, 63);
+        border-radius: 100%;
+      }
+      #icons i{
+        font-size: 1.3rem;
+        border: 1px solid rgb(63, 63, 63);
+        padding: 1px 4px 1px 4px;
+        border-radius: 12%;
+      }
+      #icons i:hover{
+        background-color: rgb(54, 179, 228);
+        color: white;
+      }
+      #list-example>a{
+       
+        font-size: 1.1rem;
+      }
+      #list-example >a:hover{
+        color: white;
+        font-weight: bold;
+      }
+   
+      #awais-img img{
+        height: 650px;
+        width: 950px;
+        object-fit: cover;
+        border: 10px solid rgb(224, 224, 224);
+        border-radius: 30px;
+        box-shadow: 4px 4px 25px rgba(99, 99, 99, 0.5);
+
+      }
+
+      #awais-img-2 img{
+        width: 300px;
+        height: 300px;
+        object-fit: cover;
+        border: 8px solid rgb(141, 206, 235);
+        border-radius: 15px;
+
+      }
+
+
+
+
+
+
+      
+
+      
